@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.1415926-p3.3-110825-2.4 (utf8.sjis) (TeX Live 2012/W32TeX) (format=platex 2012.7.12)  29 APR 2017 16:57
+This is e-pTeX, Version 3.1415926-p3.3-110825-2.4 (utf8.sjis) (TeX Live 2012/W32TeX) (format=platex 2012.7.12)  5 MAY 2017 23:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -246,10 +246,10 @@ tly
 (c:/texlive/2012/texmf/tex/latex/pxjahyper/pxjahyper.sty
 Package: pxjahyper 2012/05/27 v0.2
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 110.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 112.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 110.
-Package hyperref Info: Option `setpagesize' set `false' on input line 110.
+Package hyperref Info: Option `colorlinks' set `true' on input line 112.
+Package hyperref Info: Option `setpagesize' set `false' on input line 112.
 
 (c:/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -389,26 +389,26 @@ File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 (./20160501StirlingFormula.aux)
 \openout1 = `20160501StirlingFormula.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
 \AtBeginShipoutBox=\box48
-Package hyperref Info: Link coloring ON on input line 263.
+Package hyperref Info: Link coloring ON on input line 265.
 
 (c:/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -418,36 +418,36 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count126
 )
-LaTeX Info: Redefining \ref on input line 263.
-LaTeX Info: Redefining \pageref on input line 263.
-LaTeX Info: Redefining \nameref on input line 263.
+LaTeX Info: Redefining \ref on input line 265.
+LaTeX Info: Redefining \pageref on input line 265.
+LaTeX Info: Redefining \nameref on input line 265.
 
 (./20160501StirlingFormula.out) (./20160501StirlingFormula.out)
 \@outlinefile=\write4
 \openout4 = `20160501StirlingFormula.out'.
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 269.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 271.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 269.
-LaTeX Font Info:    Try loading font information for U+msa on input line 269.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 271.
+LaTeX Font Info:    Try loading font information for U+msa on input line 271.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 269.
+LaTeX Font Info:    Try loading font information for U+msb on input line 271.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 269.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 271.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 269.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 271.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 269.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 271.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 269.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 271.
 
 (./20160501StirlingFormula.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
@@ -461,17 +461,17 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 \openout5 = `20160501StirlingFormula.toc'.
 
 
-Overfull \hbox (13.94728pt too wide) in paragraph at lines 338--347
+Overfull \hbox (13.94728pt too wide) in paragraph at lines 340--349
  [][] 
  []
 
 [3] [4] [5]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 490.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 492.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 490.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 492.
  [6] [7] [8] [9] [10] [11] [12]
-Overfull \hbox (14.16122pt too wide) in paragraph at lines 1112--1117
+Overfull \hbox (14.16122pt too wide) in paragraph at lines 1114--1119
 []\JY1/mc/m/n/12 以上の証明法では \OT1/cmr/m/n/12 Stir-ling \JY1/mc/m/n/12 の公
 式中の因子 $\OML/cmm/m/it/12 n[]e[]$\OT1/cmr/m/n/12 , $[]$ \JY1/mc/m/n/12 のそ
 れぞれが $\OML/cmm/m/it/12 g[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/1
@@ -479,14 +479,14 @@ Overfull \hbox (14.16122pt too wide) in paragraph at lines 1112--1117
  []
 
 [13] [14]
-Overfull \hbox (7.25108pt too wide) in paragraph at lines 1239--1245
+Overfull \hbox (7.25108pt too wide) in paragraph at lines 1241--1247
 []\OT1/cmr/m/n/12 Laplace \JY1/mc/m/n/12 の方法による \OT1/cmr/m/n/12 Stir-ling
  \JY1/mc/m/n/12 の公式の証明とその一般化に関しては[][] \OT1/cmr/m/n/12 Gerg^^?o
  Nemes, Asymp-
  []
 
 [15] [16] [17] [18] [19] [20]
-Overfull \hbox (21.38693pt too wide) in paragraph at lines 1658--1661
+Overfull \hbox (21.38693pt too wide) in paragraph at lines 1660--1663
 []$\OML/cmm/m/it/12 c \OT1/cmr/m/n/12 = [] []$ \JY1/mc/m/n/12 であることを \OT1
 /cmr/m/n/12 Wal-lis \JY1/mc/m/n/12 の公式 \OT1/cmr/m/n/12 (\JY1/mc/m/n/12 第[][
 ] \OT1/cmr/m/n/12 8.4[][] \JY1/mc/m/n/12 節\OT1/cmr/m/n/12 ) \JY1/mc/m/n/12 を
@@ -497,118 +497,118 @@ Overfull \hbox (21.38693pt too wide) in paragraph at lines 1658--1661
 [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35]
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 2835.
+(Font)              using `JT1/mc/m/n' instead on input line 2840.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 2835.
+(Font)              using `JY1/mc/m/n' instead on input line 2840.
 
 [36]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 2921
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 2926
 .
  (c:/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2921.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2926.
 
  [37] [38] [39]
 [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 4122.
+(hyperref)                removing `math shift' on input line 4127.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 4122.
+(hyperref)                removing `math shift' on input line 4127.
 
 [54] [55] [56] [57] [58]
-Overfull \hbox (4.5066pt too wide) detected at line 4475
+Overfull \hbox (4.5066pt too wide) detected at line 4480
 \OML/cmm/m/it/12 A \OT1/cmr/m/n/12 = [] []
  []
 
 [59]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 4528.
+(hyperref)                removing `math shift' on input line 4533.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 4528.
+(hyperref)                removing `math shift' on input line 4533.
 
 [60] [61] [62] [63] [64]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 4883.
+(hyperref)                removing `math shift' on input line 4888.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 4883.
+(hyperref)                removing `math shift' on input line 4888.
 
 [65] [66] [67]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 5149.
+(hyperref)                removing `math shift' on input line 5154.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 5149.
+(hyperref)                removing `math shift' on input line 5154.
 
 [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 6291.
+(hyperref)                removing `math shift' on input line 6296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 6291.
+(hyperref)                removing `superscript' on input line 6296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 6291.
+(hyperref)                removing `superscript' on input line 6296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 6291.
+(hyperref)                removing `superscript' on input line 6296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 6291.
+(hyperref)                removing `superscript' on input line 6296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 6291.
+(hyperref)                removing `superscript' on input line 6296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 6291.
+(hyperref)                removing `\<def>-command' on input line 6296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\next@' on input line 6291.
+(hyperref)                removing `\next@' on input line 6296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 6291.
+(hyperref)                removing `\<let>-command' on input line 6296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 6291.
+(hyperref)                removing `math shift' on input line 6296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 6291.
+(hyperref)                removing `math shift' on input line 6296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nearrow' on input line 6291.
+(hyperref)                removing `\nearrow' on input line 6296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 6291.
+(hyperref)                removing `math shift' on input line 6296.
 
 [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
-Overfull \hbox (6.84534pt too wide) in paragraph at lines 7338--7351
+Overfull \hbox (6.84534pt too wide) in paragraph at lines 7343--7356
 []\JY1/mc/m/it/12 この定理が成立することは\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 x
 y$ \JY1/mc/m/it/12 平面に $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 F\OT1/cmr/m/n/12 (
 \OML/cmm/m/it/12 s\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; G\OT1/cmr/m/n/12 (\OML/cm
@@ -619,25 +619,25 @@ OML/cmm/m/it/12 a\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; G\OT1/cmr/m/n/12 (\OML/cmm
  []
 
 [96] [97]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 7455.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 7460.
  [98]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 7455.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 7460.
  (./20160501StirlingFormula.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 7455.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 7455.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 7460.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 7460.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 7455.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 7460.
  ) 
 Here is how much of TeX's memory you used:
- 8108 strings out of 494059
- 110020 string characters out of 3158978
- 241507 words of memory out of 3000000
- 11422 multiletter control sequences out of 15000+200000
+ 8109 strings out of 494059
+ 110033 string characters out of 3158978
+ 241546 words of memory out of 3000000
+ 11423 multiletter control sequences out of 15000+200000
  25899 words of font info for 106 fonts, out of 3000000 for 9000
  745 hyphenation exceptions out of 8191
  29i,16n,31p,250b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on 20160501StirlingFormula.dvi (98 pages, 598960 bytes).
+Output written on 20160501StirlingFormula.dvi (98 pages, 599364 bytes).

@@ -77,20 +77,15 @@
 更新の歴史については公開した古い版を参照して欲しい.
 9月12日Ver.0.29a: 微修正.
 10月4日Ver.0.30(97頁): \secref{sec:Poisson-Gamma}を書き直した.
-2017年1月22日Ver.0.31(98ページ):
-「Taylorの定理{\bf に}証明の仕方」となっていたのを直した
+2017年1月22日Ver.0.31(98ページ)：「Taylorの定理{\bf に}証明の仕方」となっていたのを直した
 (\secref{sec:Taylor}).
 「関数」を「函数」に統一した.
 Riemann-Lebesgueの定理の説明を詳しくした(\secref{sec:Riemann-Lebesgue}).
-2017年1月23日Ver.0.32(98ページ): \secref{sec:Taylor}を微修正. 
-たとえば最初の式で微分を意味する $'$ が欠けていたのを追加.
-2017年5月5日Ver.0.33(98ページ): \secref{sec:x-a/x=y}を微修正.
-このファイルのリンク先をGitHubに変えた.
 }
 \\[\bigskipamount]
 {\small
-\href{https://github.com/genkuroki/Stirling}
-{\tt https://github.com/genkuroki/Stirling}
+\href{http://www.math.tohoku.ac.jp/~kuroki/LaTeX/20160501StirlingFormula.pdf}
+{\tt http://www.math.tohoku.ac.jp/{\textasciitilde}kuroki/LaTeX/20160501StirlingFormula.pdf}
 }}
 \def\PDFTITLE{Stirlingの公式}
 \def\PDFAUTHOR{黒木玄}
@@ -279,8 +274,8 @@ Riemann-Lebesgueの定理の説明を詳しくした(\secref{sec:Riemann-Lebesgu
 \begin{center}
 {\small
 \href
-{https://github.com/genkuroki/Sanov/Old}
-{\tt https://github.com/genkuroki/Sanov/Old}
+{http://www.math.tohoku.ac.jp/~kuroki/LaTeX/20160501StirlingFormula/}
+{\tt http://www.math.tohoku.ac.jp/{\textasciitilde}kuroki/LaTeX/20160501StirlingFormula/}
 }
 \end{center}
 最初のVer.0.1は3ページしかなかった.
@@ -292,8 +287,8 @@ Riemann-Lebesgueの定理の説明を詳しくした(\secref{sec:Riemann-Lebesgu
 \begin{center}
 {\small
 \href
-{https://github.com/genkuroki/Sanov}
-{\tt https://github.com/genkuroki/Sanov}
+{http://www.math.tohoku.ac.jp/~kuroki/LaTeX/20160616KullbackLeibler.pdf}
+{\tt http://www.math.tohoku.ac.jp/{\textasciitilde}kuroki/LaTeX/20160616KullbackLeibler.pdf}
 }
 \end{center}
 この続編ではKullback-Leibler情報量(相対エントロピーの $-1$ 倍)と
@@ -2768,7 +2763,6 @@ Vol.~31, No.~3, 2009, pp.~38-41}
 
 
 \subsection{類似の積分}
-\label{sec:x-a/x=y}
 
 $a\geqq 0$ に対する次の公式を証明しよう:
 \begin{align*}
@@ -2791,15 +2785,13 @@ dx = \frac{1}{2}\left(1 + \frac{y}{\sqrt{y^2+4a}}\right)\,dy.
 \begin{align*}
 \int_{-\infty}^\infty \exp\left(-\frac{1}{2}\left(x-\frac{a}{x}\right)^2\right)\,dx
 &
-=2\int_0^\infty \exp\left(-\frac{1}{2}\left(x-\frac{a}{x}\right)^2\right)\,dx
-\\ &
-=2\int_{-\infty}^\infty \exp\left(-\frac{1}{2}y^2\right)
+=2\int_0^\infty \exp\left(-\frac{1}{2}y^2\right)
 \frac{1}{2}\left(1 + \frac{y}{\sqrt{y^2+4a}}\right)\,dy
 \\ &
 =\int_{-\infty}^\infty e^{-y^2/2}\,dy
 =\sqrt{2\pi}.
 \end{align*}
-3番目の等号で $y/\sqrt{y^2+4a}$ が $y$ の奇函数であることを使った.
+2番目の等号で $y/\sqrt{y^2+4a}$ が $y$ の奇函数であることを使った.
 一方
 \begin{align*}
 -\frac{1}{2}\left(x-\frac{a}{x}\right)^2
@@ -6985,7 +6977,7 @@ F(x)
 
 積分表示された剰余項を持つTaylorの定理は
 \[
-f(x)=f(a)+\int_a^x f'(x_1)\,dx_1
+f(x)=f(a)+\int_a^x f(x_1)\,dx_1
 \]
 を単純に繰り返し用いることによって証明可能である%
 \footnote{部分積分さえ使う必要がない!}.
@@ -7002,16 +6994,7 @@ f(x)=f(a)+f'(a) \int_a^x dx_1+\int_a^x dx_1\int_a^{x_1} f''(x_2)\,dx_2.
 \int_a^x dx_1\int_a^{x_1} f''(x_2)\,dx_2
 =\int_a^x \left(\int_a^{x_1} f''(x_2)\,dx_2 \right)\,dx_1
 \]
-という表記法を用いた%
-\footnote{代わりに, 
-\(\displaystyle
-\int_a^x dx_1\int_a^{x_1}dx_2\, f''(x_2)
-=\int_a^x \left(\int_a^{x_1} f''(x_2)\,dx_2 \right)\,dx_1
-\)
-という表記法を用いてもよい.
-この表記法の方が積分関連の記号をすべて左側に寄せることを
-徹底しているのでわかり易いいと感じる人は多いかもしれない.}.
-さらに
+という書き方を用いた. さらに
 \[
 f''(x_2)=f''(a)+\int_a^{x_2} f'''(x_3)\,dx_3
 \]
@@ -7068,7 +7051,7 @@ $x>a$ のとき, この計算結果は $k$ 次元立方体の体積の $k!$ 分�
 \{\,(x_1,x_2)\mid a\leqq x_2\leqq x_1\leqq x\,\}
 \]
 の面積, すなわち正方形の面積 $(x-a)^2$ の半分である.
-半分になる理由は, $x_2\leqq x_1$ を満たす $(x_1,x_2)$ 
+半分になる理由は, $x_2\geqq x_1$ を満たす $(x_1,x_2)$ 
 のみについて積分するからである. 正方形全体の面積を得るためには
 $x_1\leqq x_2$ を満たす $(x_1,x_2)$ についても積分しなければいけない.
 
@@ -7140,7 +7123,6 @@ Taylor級数の収束性に関わる論理的なギャップが生じない.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{剰余項の絶対値の上からの評価とTaylor展開の具体例}
-\label{sec:|R_n|}
 
 剰余項 $R_n$ が $n\to\infty$ で $0$ に収束するならば
 \[
@@ -7289,7 +7271,7 @@ U(t)=\sum_{k=0}^\infty
 A(t_1)A(t_2)\cdots A(t_k)\,dt_k.
 \]
 で得られることを示せる.
-積分中の $A(t_i)$ 達は大きな $t_i$ の順番に並んでいることに注意せよ.
+積分中の $A(t)$ は大きな $t$ の順番に並んでいることに注意せよ.
 時間順序積 $T[\ \ ]$ を次のように定める:
 \[
 T[A(t_1)\ldots A(t_k)]
@@ -7453,7 +7435,7 @@ f(t) = \sum_{k=0}^n f^{(k)}(a)\frac{(t-a)^k}{k!} + o((t-a)^n).
 \]
 これらの結果も{\bf Taylorの定理}と呼ばれる.
 
-以上の証明は $n$ 回微分可能であることのみを仮定するだけで可能である.
+以上の証明は $n$ 回微分可能性のみを仮定すれば得られる.
 $n$ 階の導函数の連続性を仮定する必要はない.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

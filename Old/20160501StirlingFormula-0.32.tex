@@ -84,13 +84,11 @@
 Riemann-Lebesgueの定理の説明を詳しくした(\secref{sec:Riemann-Lebesgue}).
 2017年1月23日Ver.0.32(98ページ): \secref{sec:Taylor}を微修正. 
 たとえば最初の式で微分を意味する $'$ が欠けていたのを追加.
-2017年5月5日Ver.0.33(98ページ): \secref{sec:x-a/x=y}を微修正.
-このファイルのリンク先をGitHubに変えた.
 }
 \\[\bigskipamount]
 {\small
-\href{https://github.com/genkuroki/Stirling}
-{\tt https://github.com/genkuroki/Stirling}
+\href{http://www.math.tohoku.ac.jp/~kuroki/LaTeX/20160501StirlingFormula.pdf}
+{\tt http://www.math.tohoku.ac.jp/{\textasciitilde}kuroki/LaTeX/20160501StirlingFormula.pdf}
 }}
 \def\PDFTITLE{Stirlingの公式}
 \def\PDFAUTHOR{黒木玄}
@@ -279,8 +277,8 @@ Riemann-Lebesgueの定理の説明を詳しくした(\secref{sec:Riemann-Lebesgu
 \begin{center}
 {\small
 \href
-{https://github.com/genkuroki/Sanov/Old}
-{\tt https://github.com/genkuroki/Sanov/Old}
+{http://www.math.tohoku.ac.jp/~kuroki/LaTeX/20160501StirlingFormula/}
+{\tt http://www.math.tohoku.ac.jp/{\textasciitilde}kuroki/LaTeX/20160501StirlingFormula/}
 }
 \end{center}
 最初のVer.0.1は3ページしかなかった.
@@ -292,8 +290,8 @@ Riemann-Lebesgueの定理の説明を詳しくした(\secref{sec:Riemann-Lebesgu
 \begin{center}
 {\small
 \href
-{https://github.com/genkuroki/Sanov}
-{\tt https://github.com/genkuroki/Sanov}
+{http://www.math.tohoku.ac.jp/~kuroki/LaTeX/20160616KullbackLeibler.pdf}
+{\tt http://www.math.tohoku.ac.jp/{\textasciitilde}kuroki/LaTeX/20160616KullbackLeibler.pdf}
 }
 \end{center}
 この続編ではKullback-Leibler情報量(相対エントロピーの $-1$ 倍)と
@@ -2768,7 +2766,6 @@ Vol.~31, No.~3, 2009, pp.~38-41}
 
 
 \subsection{類似の積分}
-\label{sec:x-a/x=y}
 
 $a\geqq 0$ に対する次の公式を証明しよう:
 \begin{align*}
@@ -2791,15 +2788,13 @@ dx = \frac{1}{2}\left(1 + \frac{y}{\sqrt{y^2+4a}}\right)\,dy.
 \begin{align*}
 \int_{-\infty}^\infty \exp\left(-\frac{1}{2}\left(x-\frac{a}{x}\right)^2\right)\,dx
 &
-=2\int_0^\infty \exp\left(-\frac{1}{2}\left(x-\frac{a}{x}\right)^2\right)\,dx
-\\ &
-=2\int_{-\infty}^\infty \exp\left(-\frac{1}{2}y^2\right)
+=2\int_0^\infty \exp\left(-\frac{1}{2}y^2\right)
 \frac{1}{2}\left(1 + \frac{y}{\sqrt{y^2+4a}}\right)\,dy
 \\ &
 =\int_{-\infty}^\infty e^{-y^2/2}\,dy
 =\sqrt{2\pi}.
 \end{align*}
-3番目の等号で $y/\sqrt{y^2+4a}$ が $y$ の奇函数であることを使った.
+2番目の等号で $y/\sqrt{y^2+4a}$ が $y$ の奇函数であることを使った.
 一方
 \begin{align*}
 -\frac{1}{2}\left(x-\frac{a}{x}\right)^2
