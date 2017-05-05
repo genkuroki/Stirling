@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.1415926-p3.3-110825-2.4 (utf8.sjis) (TeX Live 2012/W32TeX) (format=platex 2012.7.12)  5 MAY 2017 23:38
+This is e-pTeX, Version 3.1415926-p3.3-110825-2.4 (utf8.sjis) (TeX Live 2012/W32TeX) (format=platex 2012.7.12)  5 MAY 2017 23:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -640,4 +640,4 @@ Here is how much of TeX's memory you used:
  745 hyphenation exceptions out of 8191
  29i,16n,31p,250b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on 20160501StirlingFormula.dvi (98 pages, 599364 bytes).
+Output written on 20160501StirlingFormula.dvi (98 pages, 599396 bytes).
