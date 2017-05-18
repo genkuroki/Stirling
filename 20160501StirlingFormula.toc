@@ -2,7 +2,7 @@
 \contentsline {paragraph}{続編}{3}{section*.3}
 \contentsline {section}{\numberline {0}はじめに}{3}{section.0}
 \contentsline {section}{\numberline {1}ガンマ分布に関する中心極限定理からの``導出''}{4}{section.1}
-\contentsline {section}{\numberline {2}ガンマ分布の特性函数を用いた表示からの導出}{5}{section.2}
+\contentsline {section}{\numberline {2}ガンマ分布の特性函数を用いた表示からの導出}{6}{section.2}
 \contentsline {subsection}{\numberline {2.1}Stirlingの公式の証明}{6}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}正規化されたガンマ分布の確率密度函数の各点収束}{7}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}ガンマ分布の特性函数とFourier反転公式を用いない方法}{8}{subsection.2.3}
@@ -39,39 +39,41 @@
 \contentsline {subsection}{\numberline {8.2}ガンマ函数の無限乗積展開}{38}{subsection.8.2}
 \contentsline {subsection}{\numberline {8.3}正弦函数の無限乗積展開}{41}{subsection.8.3}
 \contentsline {subsection}{\numberline {8.4}Wallisの公式}{43}{subsection.8.4}
-\contentsline {subsection}{\numberline {8.5}Stirling-Binet の公式(1)}{44}{subsection.8.5}
-\contentsline {subsection}{\numberline {8.6}Stirling-Binet の公式(2) 書きかけ}{49}{subsection.8.6}
-\contentsline {section}{\numberline {9}付録: 様々な確率分布について}{49}{section.9}
-\contentsline {subsection}{\numberline {9.1}正規分布}{49}{subsection.9.1}
-\contentsline {paragraph}{再生性}{49}{section*.13}
-\contentsline {subsection}{\numberline {9.2}ガンマ分布とカイ2乗分布}{49}{subsection.9.2}
-\contentsline {paragraph}{特性函数}{50}{section*.14}
-\contentsline {paragraph}{再生性}{50}{section*.15}
-\contentsline {paragraph}{カイ2乗分布}{50}{section*.16}
-\contentsline {subsection}{\numberline {9.3}多項分布とPearsonのカイ2乗統計量と多次元正規分布}{51}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}第二種ベータ分布と $t$ 分布}{54}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}不偏分散の直交変換による取り扱いについて}{58}{subsection.9.5}
-\contentsline {subsection}{\numberline {9.6}第一種および第二種ベータ分布と $F$ 分布}{60}{subsection.9.6}
-\contentsline {subsection}{\numberline {9.7}ガンマ分布と第一種と第二種のベータ分布の関係}{62}{subsection.9.7}
-\contentsline {paragraph}{第一種ベータ分布と関係する表示を先に出す方法}{62}{section*.20}
-\contentsline {paragraph}{第二種ベータ分布と関係する表示を先に出す方法}{63}{section*.21}
-\contentsline {paragraph}{極座標変換の場合}{64}{section*.22}
-\contentsline {paragraph}{正接を使う座標変換の場合}{64}{section*.23}
-\contentsline {subsection}{\numberline {9.8}$n-1$ 次元球面上の一様分布とMaxwell-Boltzmann則 (1)}{65}{subsection.9.8}
-\contentsline {subsection}{\numberline {9.9}$n-1$ 次元球面上の一様分布とMaxwell-Boltzmann則 (2)}{68}{subsection.9.9}
-\contentsline {subsection}{\numberline {9.10}二項分布と第一種ベータ分布}{70}{subsection.9.10}
-\contentsline {subsection}{\numberline {9.11}Poisson分布とガンマ分布}{71}{subsection.9.11}
-\contentsline {subsection}{\numberline {9.12}基本的な数学用語の大雑把な説明}{73}{subsection.9.12}
-\contentsline {section}{\numberline {10}付録: 簡単なTauber型定理とその応用}{74}{section.10}
-\contentsline {subsection}{\numberline {10.1}不定積分のTauber型定理}{74}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Laplace変換のTauber型定理}{75}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}Wallisの公式と逆正弦分布}{80}{subsection.10.3}
-\contentsline {subsection}{\numberline {10.4}$\mathbf {x-x^2+x^4-x^8+x^{16}-x^{32}+\cdots }$ で $\mathbf {x\nearrow 1}$ とすると?}{82}{subsection.10.4}
-\contentsline {subsection}{\numberline {10.5}Laplace-Stieltjes変換}{83}{subsection.10.5}
-\contentsline {subsection}{\numberline {10.6}Laplace-Stieltjes変換のTauber型定理}{87}{subsection.10.6}
-\contentsline {section}{\numberline {11}付録: Taylorの定理の証明の仕方}{90}{section.11}
-\contentsline {subsection}{\numberline {11.1}積分剰余項型Taylorの定理}{91}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}剰余項の絶対値の上からの評価とTaylor展開の具体例}{93}{subsection.11.2}
-\contentsline {subsection}{\numberline {11.3}線形常微分方程式の解法}{95}{subsection.11.3}
-\contentsline {subsection}{\numberline {11.4}微分剰余項型Taylorの定理}{96}{subsection.11.4}
-\contentsline {paragraph}{Cauchyの平均値の定理：}{96}{section*.41}
+\contentsline {subsection}{\numberline {8.5}$\boldsymbol {B(s,1/2)}$ の級数展開}{44}{subsection.8.5}
+\contentsline {subsection}{\numberline {8.6}Fresnel積分とDirichlet積分とガンマ函数}{44}{subsection.8.6}
+\contentsline {subsection}{\numberline {8.7}Stirling-Binet の公式(1)}{45}{subsection.8.7}
+\contentsline {subsection}{\numberline {8.8}Stirling-Binet の公式(2) 書きかけ}{50}{subsection.8.8}
+\contentsline {section}{\numberline {9}付録: 様々な確率分布について}{50}{section.9}
+\contentsline {subsection}{\numberline {9.1}正規分布}{50}{subsection.9.1}
+\contentsline {paragraph}{再生性}{51}{section*.14}
+\contentsline {subsection}{\numberline {9.2}ガンマ分布とカイ2乗分布}{51}{subsection.9.2}
+\contentsline {paragraph}{特性函数}{51}{section*.15}
+\contentsline {paragraph}{再生性}{51}{section*.16}
+\contentsline {paragraph}{カイ2乗分布}{51}{section*.17}
+\contentsline {subsection}{\numberline {9.3}多項分布とPearsonのカイ2乗統計量と多次元正規分布}{52}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}第二種ベータ分布と $t$ 分布}{55}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}不偏分散の直交変換による取り扱いについて}{59}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.6}第一種および第二種ベータ分布と $F$ 分布}{61}{subsection.9.6}
+\contentsline {subsection}{\numberline {9.7}ガンマ分布と第一種と第二種のベータ分布の関係}{63}{subsection.9.7}
+\contentsline {paragraph}{第一種ベータ分布と関係する表示を先に出す方法}{63}{section*.21}
+\contentsline {paragraph}{第二種ベータ分布と関係する表示を先に出す方法}{64}{section*.22}
+\contentsline {paragraph}{極座標変換の場合}{65}{section*.23}
+\contentsline {paragraph}{正接を使う座標変換の場合}{65}{section*.24}
+\contentsline {subsection}{\numberline {9.8}$n-1$ 次元球面上の一様分布とMaxwell-Boltzmann則 (1)}{66}{subsection.9.8}
+\contentsline {subsection}{\numberline {9.9}$n-1$ 次元球面上の一様分布とMaxwell-Boltzmann則 (2)}{69}{subsection.9.9}
+\contentsline {subsection}{\numberline {9.10}二項分布と第一種ベータ分布}{71}{subsection.9.10}
+\contentsline {subsection}{\numberline {9.11}Poisson分布とガンマ分布}{72}{subsection.9.11}
+\contentsline {subsection}{\numberline {9.12}基本的な数学用語の大雑把な説明}{74}{subsection.9.12}
+\contentsline {section}{\numberline {10}付録: 簡単なTauber型定理とその応用}{75}{section.10}
+\contentsline {subsection}{\numberline {10.1}不定積分のTauber型定理}{75}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Laplace変換のTauber型定理}{76}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}Wallisの公式と逆正弦分布}{81}{subsection.10.3}
+\contentsline {subsection}{\numberline {10.4}$\mathbf {x-x^2+x^4-x^8+x^{16}-x^{32}+\cdots }$ で $\mathbf {x\nearrow 1}$ とすると?}{83}{subsection.10.4}
+\contentsline {subsection}{\numberline {10.5}Laplace-Stieltjes変換}{84}{subsection.10.5}
+\contentsline {subsection}{\numberline {10.6}Laplace-Stieltjes変換のTauber型定理}{88}{subsection.10.6}
+\contentsline {section}{\numberline {11}付録: Taylorの定理の証明の仕方}{91}{section.11}
+\contentsline {subsection}{\numberline {11.1}積分剰余項型Taylorの定理}{92}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}剰余項の絶対値の上からの評価とTaylor展開の具体例}{94}{subsection.11.2}
+\contentsline {subsection}{\numberline {11.3}線形常微分方程式の解法}{96}{subsection.11.3}
+\contentsline {subsection}{\numberline {11.4}微分剰余項型Taylorの定理}{97}{subsection.11.4}
+\contentsline {paragraph}{Cauchyの平均値の定理：}{97}{section*.42}
