@@ -64,6 +64,7 @@
 %\theoremref{theorem:chi-square}, \theoremref{theorem:t},
 %\theoremref{theorem:normal-t}, \theoremref{theorem:normal-t2},
 %\theoremref{theorem:F}を追加した.
+{\bfseries 2016年}
 6月30日Ver.0.22: 細かな訂正と追記.
 \secref{sec:Beta1st}を大幅に書き直した.
 7月1日Ver.0.23(89頁): \secref{sec:Betas}を追加した.
@@ -77,20 +78,22 @@
 更新の歴史については公開した古い版を参照して欲しい.
 9月12日Ver.0.29a: 微修正.
 10月4日Ver.0.30(97頁): \secref{sec:Poisson-Gamma}を書き直した.
-2017年1月22日Ver.0.31(98ページ):
+{\bfseries 2017年}
+1月22日Ver.0.31(98ページ):
 「Taylorの定理{\bfseries に}証明の仕方」となっていたのを直した
 (\secref{sec:Taylor}).
 「関数」を「函数」に統一した.
 Riemann-Lebesgueの定理の説明を詳しくした(\secref{sec:Riemann-Lebesgue}).
-2017年1月23日Ver.0.32(98ページ): \secref{sec:Taylor}を微修正.
+1月23日Ver.0.32(98ページ): \secref{sec:Taylor}を微修正.
 たとえば最初の式で微分を意味する $'$ が欠けていたのを追加.
-2017年5月5日Ver.0.33(98ページ): \secref{sec:x-a/x=y}を微修正.
+5月5日Ver.0.33(98ページ): \secref{sec:x-a/x=y}を微修正.
 このファイルのリンク先をGitHubに変えた.
-2017年5月18日Ver.0.34(99ページ): \href{https://mathtod.online}{mathtodon}に
+5月18日Ver.0.34(99ページ): \href{https://mathtod.online}{mathtodon}に
 おける解説を\secref{sec:B(s,1/2)}と\secref{sec:Fresnel}に収録した.
-2017年6月11日Ver.0.34a(99頁): リンク先を変えた.
-2017年7月20日Ver.0.35(101頁): Dirichlet積分に関する
+6月11日Ver.0.34a(99頁): リンク先を変えた.
+7月20日Ver.0.35(101頁): Dirichlet積分に関する
 \secref{sec:Dirichlet-integral}を設けた.
+7月21日Ver.0.35a: 微修正.
 }
 \\[\bigskipamount]
 {\small
@@ -2094,7 +2097,7 @@ $\widehat{f}(p)=e^{-p^2/2}\sqrt{2\pi}$ でかつ
 \]
 このようにDirichlet積分の公式はRiemannの局所性定理とRiemann-Lebesgueの定理
 と $e^{-x^2/2}$ のFourier変換の計算から得られる%
-\footnote{複素解析を使った証明もある.}.
+\footnote{他の証明法もある. \remarkref{remark:Dirichlet-integral}を参照せよ.}.
 
 Dirichlet積分の公式で積分変数 $x$ を $a>0$ に対する $ax$ で置換し,
 両辺を $\pm 1$ 倍することによって
@@ -2127,7 +2130,7 @@ Dirichlet積分の公式はこの形で使われることが多い.
   \end{equation*}
   を以下のようにして証明することもできる.
 
-  \paragraph{1. $\boldsymbol{e^{-ax}/x}$ の定積分表示を使う方法}
+  \paragraph{1. $\boldsymbol{e^{-ax}/x}$ の積分表示を使う方法}
   準備: $t>0$ のとき, 部分積分を2回実行すると
   \begin{align*}
     I&:=\int_0^\infty e^{-tx}\sin x\,dx
@@ -2536,7 +2539,7 @@ U(t,0)=\int_{-\infty}^\infty u(t,x)\,dx=1
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{項別積分で計算する方法}
+\subsection{Taylor展開の項別積分で計算する方法}
 
 もしも $t=1$ の場合の公式($*$)
 \[
