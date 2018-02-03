@@ -1,0 +1,4 @@
+PWD C:/Users/genkuroki/Box Sync/GitHub/Stirling
+INPUT c:/texlive/2015/texmf.cnf
+INPUT c:/texlive/2015/texmf-var/web2c/eptex/platex.fmt
+INPUT ./20160501StirlingFormula.tex
