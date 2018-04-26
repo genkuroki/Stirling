@@ -101,6 +101,8 @@ Euler定数の積分表示の証明の説明を少し詳しくした.
 を追加した.
 {\bfseries 2018年}2月3日Ver.0.38(102頁): 微修正.
 Wallis積の公式に関する解説を増やした(\secref{sec:Wallis}).
+4月26日Ver.0.39(103頁): 正弦函数の無限乗積展開が正弦函数の奇数倍角の公式
+の極限になっていることの解説を追加した(\secref{sub:prod-sin2}).
 }
 \\[\bigskipamount]
 {\small
@@ -3300,6 +3302,10 @@ $0<s<1$ のとき
 
 
 \subsection{正弦函数の無限乗積展開}
+\label{sub:prod-sin}
+
+\subsubsection{ガンマ函数の無限乗積展開からの正弦函数の無限乗積展開の導出}
+\label{sub:prod-sin0}
 
 ガンマ函数の無限乗積展開の応用として $\sin z$ の無限乗積展開を証明しよう.
 積分の順序交換を用いて証明されるガンマ函数とベータ函数の関係と
@@ -3332,6 +3338,9 @@ $\sin z$ の対数微分 $\cot z$ の部分分数展開
 \]
 を複素解析を用いて証明し, 項別に積分すればよい.
 詳しくは高木貞治『解析概論』の235頁を見よ.
+
+\subsubsection{Fourier級数を使った正弦函数の無限乗積展開の導出}
+\label{sub:prod-sin1}
 
 以下では, 複素解析ではなく,
 Fourier級数の理論を使って正弦函数の無限乗積展開を直接に得る方法
@@ -3440,6 +3449,87 @@ $1/(\Gamma(s)\Gamma(1-s))$ と $\sin(\pi s)$ を比較することによって
 \]
 これらの公式はどれか一つを証明できれば他も芋づる式に得られるようになっている.
 
+\subsubsection{正弦函数の奇数倍角の公式を使った無限乗積展開の導出}
+\label{sub:prod-sin2}
+
+正弦函数の無限乗積展開は正弦函数の奇数倍角の公式の極限だとみなせる.
+
+非負の整数 $n$ に関する $e^{inx} = (e^{ix})^n$ の
+右辺に $e^{ix} = \cos x + i\sin x$ を代入して二項定理を適用し,
+両辺の虚部を取ると次が得られる:
+\begin{align*}
+  \sin(nx) = \sum_{0\leqq k<n/2}
+  (-1)^k\binom{n}{2k+1} (\cos x)^{n-2k-1}(\sin x)^{2k+1}.
+\end{align*}
+$(\cos x)^2=1-(\sin x)^2$ より, $n$ が奇数ならば $\sin(nx)$ は $\sin x$
+の $n$ 次多項式で表わされることがわかる.
+
+以下では, $m$ は非負の整数であるとし, $n=2m+1$ とおき,
+$\sin(nx)=\sin((2m+1)x)$ について考える.
+$\sin((2m+1)x)$ は $\sin x$ の $2m+1$ 次の多項式であり,
+周期 $2\pi/(2m+1)$ を持ち,
+\begin{equation*}
+x_k = \frac{k\pi}{2m+1}, \quad k=0,\pm1,\ldots,\pm m
+\end{equation*}
+で $0$ になり,
+\begin{equation*}
+  -\pi/2<x_{-m}<x_{-m+1}<\cdots<x_{m-1}<x_m<\pi/2
+\end{equation*}
+なので, $\sin x_k$ は互いに異なる. これで $\sin x$ の $2m+1$ 次の
+多項式 $\sin((2m+1)x)$ の互いに異なる $(2m+1)$ 個の零点 $\sin x_k$
+が判明したことになる. ゆえに $0$ でないある定数 $C$ が存在して,
+\begin{align*}
+  \sin((2m+1)x) =
+  C \sin x
+  \prod_{k=1}^m
+  \left[
+  \left(\sin x - \sin\frac{k\pi}{2m+1}\right)
+  \left(\sin x + \sin\frac{k\pi}{2m+1}\right)
+  \right].
+\end{align*}
+両辺を $x$ で割って, $x\to 0$ の極限を取ると,
+\begin{align*}
+  2m+1 = C
+  \prod_{k=1}^m
+  \left[
+  \left(-\sin\frac{k\pi}{2m+1}\right)
+  \left(\sin\frac{k\pi}{2m+1}\right)
+  \right].
+\end{align*}
+したがって,
+\begin{align*}
+  \frac{\sin((2m+1)x)}{2m+1} =
+  \sin x
+  \prod_{k=1}^m
+  \left[
+  \left(1-\frac{\sin x}{\sin\frac{k\pi}{2m+1}}\right)
+  \left(1+\frac{\sin x}{\sin\frac{k\pi}{2m+1}}\right)
+  \right].
+\end{align*}
+これに $x=\pi s/(2m+1)$ を代入し, 両辺に $(2m+1)/\pi$ をかけると
+\begin{align*}
+  \frac{\sin(\pi s)}{\pi} =
+  \frac{\sin\frac{\pi s}{2m+1}}{\frac{\pi}{2m+1}}
+  \prod_{k=1}^m
+  \left[
+  \left(1-\frac{\sin\frac{\pi s}{2m+1}}{\sin\frac{\pi k}{2m+1}}\right)
+  \left(1+\frac{\sin\frac{\pi s}{2m+1}}{\sin\frac{\pi k}{2m+1}}\right)
+  \right].
+\end{align*}
+さらに $m\to\infty$ の極限を取ると正弦函数の無限乗積展開が得られる:
+\begin{align*}
+\frac{\sin(\pi s)}{\pi}
+=s \prod_{k=1}^\infty\left[
+\left(1-\frac{s}{k}\right)\left(1+\frac{s}{k}\right)
+\right].
+\end{align*}
+ここで以下を使った: $t\to 0$ のとき
+\begin{align*}
+  \frac{\sin(at)}{t}\to a, \qquad
+  \frac{\sin(at)}{\sin(bt)} \to \frac{a}{b}.
+\end{align*}
+以上のように正弦函数の無限乗積展開は
+正弦函数の奇数倍角の公式の極限であるともみなせる.
 
 \subsection{Wallisの公式}
 \label{sec:Wallis}

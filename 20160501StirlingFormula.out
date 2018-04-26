@@ -38,34 +38,37 @@
 \BOOKMARK [2][-]{subsection.8.1}{8.1 ガンマ函数と正弦函数の関係式}{section.8}% 38
 \BOOKMARK [2][-]{subsection.8.2}{8.2 ガンマ函数の無限乗積展開}{section.8}% 39
 \BOOKMARK [2][-]{subsection.8.3}{8.3 正弦函数の無限乗積展開}{section.8}% 40
-\BOOKMARK [2][-]{subsection.8.4}{8.4 Wallisの公式}{section.8}% 41
-\BOOKMARK [2][-]{subsection.8.5}{8.5 bold0mu mumu B\(s,1/2\)B\(s,1/2\)B\(s,1/2\)B\(s,1/2\)B\(s,1/2\)B\(s,1/2\) の級数展開}{section.8}% 42
-\BOOKMARK [2][-]{subsection.8.6}{8.6 Fresnel積分とDirichlet積分とガンマ函数}{section.8}% 43
-\BOOKMARK [2][-]{subsection.8.7}{8.7 Stirling-Binet の公式\(1\)}{section.8}% 44
-\BOOKMARK [2][-]{subsection.8.8}{8.8 Stirling-Binet の公式\(2\) 書きかけ}{section.8}% 45
-\BOOKMARK [1][-]{section.9}{9 付録: 様々な確率分布について}{}% 46
-\BOOKMARK [2][-]{subsection.9.1}{9.1 正規分布}{section.9}% 47
-\BOOKMARK [2][-]{subsection.9.2}{9.2 ガンマ分布とカイ2乗分布}{section.9}% 48
-\BOOKMARK [2][-]{subsection.9.3}{9.3 多項分布とPearsonのカイ2乗統計量と多次元正規分布}{section.9}% 49
-\BOOKMARK [2][-]{subsection.9.4}{9.4 第二種ベータ分布と t 分布}{section.9}% 50
-\BOOKMARK [2][-]{subsection.9.5}{9.5 逆ガンマ分布}{section.9}% 51
-\BOOKMARK [2][-]{subsection.9.6}{9.6 不偏分散の直交変換による取り扱いについて}{section.9}% 52
-\BOOKMARK [2][-]{subsection.9.7}{9.7 第一種および第二種ベータ分布と F 分布}{section.9}% 53
-\BOOKMARK [2][-]{subsection.9.8}{9.8 ガンマ分布と第一種と第二種のベータ分布の関係}{section.9}% 54
-\BOOKMARK [2][-]{subsection.9.9}{9.9 n-1 次元球面上の一様分布とMaxwell-Boltzmann則 \(1\)}{section.9}% 55
-\BOOKMARK [2][-]{subsection.9.10}{9.10 n-1 次元球面上の一様分布とMaxwell-Boltzmann則 \(2\)}{section.9}% 56
-\BOOKMARK [2][-]{subsection.9.11}{9.11 二項分布と第一種ベータ分布}{section.9}% 57
-\BOOKMARK [2][-]{subsection.9.12}{9.12 Poisson分布とガンマ分布}{section.9}% 58
-\BOOKMARK [2][-]{subsection.9.13}{9.13 基本的な数学用語の大雑把な説明}{section.9}% 59
-\BOOKMARK [1][-]{section.10}{10 付録: 簡単なTauber型定理とその応用}{}% 60
-\BOOKMARK [2][-]{subsection.10.1}{10.1 不定積分のTauber型定理}{section.10}% 61
-\BOOKMARK [2][-]{subsection.10.2}{10.2 Laplace変換のTauber型定理}{section.10}% 62
-\BOOKMARK [2][-]{subsection.10.3}{10.3 Wallisの公式と逆正弦分布}{section.10}% 63
-\BOOKMARK [2][-]{subsection.10.4}{10.4 x-x2+x4-x8+x16-x32+\@let@token arc で x1 とすると?}{section.10}% 64
-\BOOKMARK [2][-]{subsection.10.5}{10.5 Laplace-Stieltjes変換}{section.10}% 65
-\BOOKMARK [2][-]{subsection.10.6}{10.6 Laplace-Stieltjes変換のTauber型定理}{section.10}% 66
-\BOOKMARK [1][-]{section.11}{11 付録: Taylorの定理の証明の仕方}{}% 67
-\BOOKMARK [2][-]{subsection.11.1}{11.1 積分剰余項型Taylorの定理}{section.11}% 68
-\BOOKMARK [2][-]{subsection.11.2}{11.2 剰余項の絶対値の上からの評価とTaylor展開の具体例}{section.11}% 69
-\BOOKMARK [2][-]{subsection.11.3}{11.3 線形常微分方程式の解法}{section.11}% 70
-\BOOKMARK [2][-]{subsection.11.4}{11.4 微分剰余項型Taylorの定理}{section.11}% 71
+\BOOKMARK [3][-]{subsubsection.8.3.1}{8.3.1 ガンマ函数の無限乗積展開からの正弦函数の無限乗積展開の導出}{subsection.8.3}% 41
+\BOOKMARK [3][-]{subsubsection.8.3.2}{8.3.2 Fourier級数を使った正弦函数の無限乗積展開の導出}{subsection.8.3}% 42
+\BOOKMARK [3][-]{subsubsection.8.3.3}{8.3.3 正弦函数の奇数倍角の公式を使った無限乗積展開の導出}{subsection.8.3}% 43
+\BOOKMARK [2][-]{subsection.8.4}{8.4 Wallisの公式}{section.8}% 44
+\BOOKMARK [2][-]{subsection.8.5}{8.5 bold0mu mumu B\(s,1/2\)B\(s,1/2\)B\(s,1/2\)B\(s,1/2\)B\(s,1/2\)B\(s,1/2\) の級数展開}{section.8}% 45
+\BOOKMARK [2][-]{subsection.8.6}{8.6 Fresnel積分とDirichlet積分とガンマ函数}{section.8}% 46
+\BOOKMARK [2][-]{subsection.8.7}{8.7 Stirling-Binet の公式\(1\)}{section.8}% 47
+\BOOKMARK [2][-]{subsection.8.8}{8.8 Stirling-Binet の公式\(2\) 書きかけ}{section.8}% 48
+\BOOKMARK [1][-]{section.9}{9 付録: 様々な確率分布について}{}% 49
+\BOOKMARK [2][-]{subsection.9.1}{9.1 正規分布}{section.9}% 50
+\BOOKMARK [2][-]{subsection.9.2}{9.2 ガンマ分布とカイ2乗分布}{section.9}% 51
+\BOOKMARK [2][-]{subsection.9.3}{9.3 多項分布とPearsonのカイ2乗統計量と多次元正規分布}{section.9}% 52
+\BOOKMARK [2][-]{subsection.9.4}{9.4 第二種ベータ分布と t 分布}{section.9}% 53
+\BOOKMARK [2][-]{subsection.9.5}{9.5 逆ガンマ分布}{section.9}% 54
+\BOOKMARK [2][-]{subsection.9.6}{9.6 不偏分散の直交変換による取り扱いについて}{section.9}% 55
+\BOOKMARK [2][-]{subsection.9.7}{9.7 第一種および第二種ベータ分布と F 分布}{section.9}% 56
+\BOOKMARK [2][-]{subsection.9.8}{9.8 ガンマ分布と第一種と第二種のベータ分布の関係}{section.9}% 57
+\BOOKMARK [2][-]{subsection.9.9}{9.9 n-1 次元球面上の一様分布とMaxwell-Boltzmann則 \(1\)}{section.9}% 58
+\BOOKMARK [2][-]{subsection.9.10}{9.10 n-1 次元球面上の一様分布とMaxwell-Boltzmann則 \(2\)}{section.9}% 59
+\BOOKMARK [2][-]{subsection.9.11}{9.11 二項分布と第一種ベータ分布}{section.9}% 60
+\BOOKMARK [2][-]{subsection.9.12}{9.12 Poisson分布とガンマ分布}{section.9}% 61
+\BOOKMARK [2][-]{subsection.9.13}{9.13 基本的な数学用語の大雑把な説明}{section.9}% 62
+\BOOKMARK [1][-]{section.10}{10 付録: 簡単なTauber型定理とその応用}{}% 63
+\BOOKMARK [2][-]{subsection.10.1}{10.1 不定積分のTauber型定理}{section.10}% 64
+\BOOKMARK [2][-]{subsection.10.2}{10.2 Laplace変換のTauber型定理}{section.10}% 65
+\BOOKMARK [2][-]{subsection.10.3}{10.3 Wallisの公式と逆正弦分布}{section.10}% 66
+\BOOKMARK [2][-]{subsection.10.4}{10.4 x-x2+x4-x8+x16-x32+\@let@token arc で x1 とすると?}{section.10}% 67
+\BOOKMARK [2][-]{subsection.10.5}{10.5 Laplace-Stieltjes変換}{section.10}% 68
+\BOOKMARK [2][-]{subsection.10.6}{10.6 Laplace-Stieltjes変換のTauber型定理}{section.10}% 69
+\BOOKMARK [1][-]{section.11}{11 付録: Taylorの定理の証明の仕方}{}% 70
+\BOOKMARK [2][-]{subsection.11.1}{11.1 積分剰余項型Taylorの定理}{section.11}% 71
+\BOOKMARK [2][-]{subsection.11.2}{11.2 剰余項の絶対値の上からの評価とTaylor展開の具体例}{section.11}% 72
+\BOOKMARK [2][-]{subsection.11.3}{11.3 線形常微分方程式の解法}{section.11}% 73
+\BOOKMARK [2][-]{subsection.11.4}{11.4 微分剰余項型Taylorの定理}{section.11}% 74
