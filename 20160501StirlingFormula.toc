@@ -45,7 +45,7 @@
 \contentsline {subsubsection}{\numberline {8.3.1}ƒKƒ“ƒ}”Ÿ”‚Ì–³ŒÀæÏ“WŠJ‚©‚ç‚Ì³Œ·”Ÿ”‚Ì–³ŒÀæÏ“WŠJ‚Ì“±o}{42}{subsubsection.8.3.1}
 \contentsline {subsubsection}{\numberline {8.3.2}Fourier‹‰”‚ğg‚Á‚½³Œ·”Ÿ”‚Ì–³ŒÀæÏ“WŠJ‚Ì“±o}{43}{subsubsection.8.3.2}
 \contentsline {subsubsection}{\numberline {8.3.3}³Œ·”Ÿ”‚ÌŠï””{Šp‚ÌŒö®‚ğg‚Á‚½–³ŒÀæÏ“WŠJ‚Ì“±o}{44}{subsubsection.8.3.3}
-\contentsline {subsection}{\numberline {8.4}Wallis‚ÌŒö®}{45}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.4}Wallis‚ÌŒö®}{46}{subsection.8.4}
 \contentsline {subsection}{\numberline {8.5}$\boldsymbol {B(s,1/2)}$ ‚Ì‹‰”“WŠJ}{47}{subsection.8.5}
 \contentsline {subsection}{\numberline {8.6}FresnelÏ•ª‚ÆDirichletÏ•ª‚ÆƒKƒ“ƒ}”Ÿ”}{48}{subsection.8.6}
 \contentsline {subsection}{\numberline {8.7}Stirling-Binet ‚ÌŒö®(1)}{49}{subsection.8.7}

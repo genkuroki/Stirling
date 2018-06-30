@@ -1,14 +1,14 @@
 # Fdb version 3
-["dvipdf"] 1530356379 "20160501StirlingFormula.dvi" "20160501StirlingFormula.pdf" "20160501StirlingFormula" 1530356544
-  "20160501StirlingFormula.dvi" 1530356379 638104 f6bf0cccd0b246843dece3cc39fa47e4 "latex"
+["dvipdf"] 1530358122 "20160501StirlingFormula.dvi" "20160501StirlingFormula.pdf" "20160501StirlingFormula" 1530358953
+  "20160501StirlingFormula.dvi" 1530358122 638660 402f3c12fc722c3311f26b93f54db667 "latex"
   (generated)
   "20160501StirlingFormula.pdf"
-["latex"] 1530356378 "20160501StirlingFormula.tex" "20160501StirlingFormula.dvi" "20160501StirlingFormula" 1530356544
-  "./20160501StirlingFormula.tex" 1530356377 287673 e1b831baf7aacff0c18e63242fbf210e ""
-  "20160501StirlingFormula.aux" 1530356379 15595 4103cef8f09775cf2c166e245a4aa045 ""
-  "20160501StirlingFormula.out" 1530356379 6237 c14d81c54b9ce6cd82ab30a440ef5945 ""
-  "20160501StirlingFormula.tex" 1530356377 287673 e1b831baf7aacff0c18e63242fbf210e ""
-  "20160501StirlingFormula.toc" 1530356379 8019 49bee88d6d5f408d9e20b2daab31f8d0 ""
+["latex"] 1530358120 "20160501StirlingFormula.tex" "20160501StirlingFormula.dvi" "20160501StirlingFormula" 1530358953
+  "./20160501StirlingFormula.tex" 1530358119 287894 09391a5f6f20586f0ed05f01626152c3 ""
+  "20160501StirlingFormula.aux" 1530358122 15595 d8ac64ed560afe06f4e3822901b90e4e ""
+  "20160501StirlingFormula.out" 1530358122 6237 c14d81c54b9ce6cd82ab30a440ef5945 ""
+  "20160501StirlingFormula.tex" 1530358119 287894 09391a5f6f20586f0ed05f01626152c3 ""
+  "20160501StirlingFormula.toc" 1530358122 8019 6d34cdf9894cf6e5cca9193ef1dcd456 ""
   "c:/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1441007750 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "c:/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/goth10.tfm" 1441008100 1200 05cd01c8b39c63a2f8185f7e6e5b2300 ""
   "c:/texlive/2015/texmf-dist/fonts/tfm/ptex/standard/goth6.tfm" 1441008100 1200 8c52ec6445e4aa51ce1f5415dbc277e6 ""
@@ -119,8 +119,8 @@
   "c:/texlive/2015/texmf-var/web2c/eptex/platex.fmt" 1441008425 3997239 3d86a154233dfd8f9d91dc1d060c494a ""
   "c:/texlive/2015/texmf.cnf" 1441008353 497 7277663fd190ea5a4fe922b182dc7be2 ""
   (generated)
+  "20160501StirlingFormula.aux"
+  "20160501StirlingFormula.toc"
+  "20160501StirlingFormula.log"
   "20160501StirlingFormula.out"
   "20160501StirlingFormula.dvi"
-  "20160501StirlingFormula.toc"
-  "20160501StirlingFormula.aux"
-  "20160501StirlingFormula.log"

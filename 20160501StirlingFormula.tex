@@ -3392,17 +3392,21 @@ e^{itx}
 \right]
 \]
 になる. したがって,
-\[
-\pi\cot(tx)
-=\frac{\pi\cos(\pi t)}{\sin(\pi t)}
-=\frac{1}{t} + \sum_{n=1}^\infty (-1)^n\frac{2t\cos(nx)}{t^2-n^2}
-\]
-両辺の $x\to\pi$ での極限を取ることによって,
-\[
+\begin{equation*}
+  \frac{\pi\cos(tx)}{\sin(\pi t)}
+  =\frac{1}{t} + \sum_{n=1}^\infty (-1)^n\frac{2t\cos(nx)}{t^2-n^2}
+\end{equation*}
+両辺の $x\to 0,\pi$ での極限を取ることによって, それぞれ
+\begin{align*}
+&
+\frac{\pi}{\sin(\pi t)}
+=\frac{1}{t} + \sum_{n=1}^\infty(-1)^n\frac{2t}{t^2-n^2}
+=\frac{1}{t} + \sum_{n=1}^\infty(-1)^n\left(\frac{1}{t-n}+\frac{1}{t+n}\right)
+\\ &
 \pi\cot(\pi t)
 =\frac{1}{t} + \sum_{n=1}^\infty\frac{2t}{t^2-n^2}
 =\frac{1}{t} + \sum_{n=1}^\infty\left(\frac{1}{t-n}+\frac{1}{t+n}\right)
-\]
+\end{align*}
 を得る%
 \footnote{$\coth z=-i\cot(-iz)$ より,
 \(\displaystyle
