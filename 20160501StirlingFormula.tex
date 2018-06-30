@@ -103,6 +103,7 @@ Euler定数の積分表示の証明の説明を少し詳しくした.
 Wallis積の公式に関する解説を増やした(\secref{sec:Wallis}).
 4月26日Ver.0.39(103頁): 正弦函数の無限乗積展開が正弦函数の奇数倍角の公式
 の極限になっていることの解説を追加した(\secref{sub:prod-sin2}).
+6月30日Ver.0.40(103頁): 微修正.
 }
 \\[\bigskipamount]
 {\small
@@ -6804,15 +6805,17 @@ F(0.999)\approx 0.500124.
 \]
 $F(x)$ は $x\nearrow 1$ で $1/2$ に収束するのだろうか？
 
-数列 $a_n$, $s_n$ を
-\[
-F(x)=\sum_{n=0}^\infty a_n x^n, \qquad
-s_n = a_0+a_1+\cdots+a_n
-\]
+数列 $a_n$, $s_n$, $f(x)$ を
+\begin{equation*}
+  F(x)=\sum_{n=0}^\infty a_n x^n, \quad
+  s_n = a_0+a_1+\cdots+a_n, \qquad
+  f(x) = \sum_{k=0}^\infty s_n x^n
+\end{equation*}
 と定める. 一般に
-\[
-\sum_{n=0}^\infty a_n x^n = (1-x)\sum_{n=0}^\infty s_n x^n
-\]
+\begin{equation*}
+\sum_{n=0}^\infty a_n x^n =
+(1-x)\sum_{n=0}^\infty s_n x^n
+\end{equation*}
 のとき
 \[
 s_n = a_0+a_1+\cdots+a_n
