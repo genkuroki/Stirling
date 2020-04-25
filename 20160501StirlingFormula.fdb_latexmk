@@ -1,17 +1,17 @@
 # Fdb version 3
-["dvipdf"] 1561536541 "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.dvi" "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.pdf" "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula" 1561536543
-  "20160501StirlingFormula.dvi" 1561536541 640544 6a7bf908d0d7c5fd3d636e0333afb8da ""
-  "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.dvi" 1561536541 640544 6a7bf908d0d7c5fd3d636e0333afb8da "latex"
+["dvipdf"] 1587782701 "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.dvi" "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.pdf" "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula" 1587782703
+  "20160501StirlingFormula.dvi" 1587782701 640948 5ecd0e3d254b872d340664b380bbb957 ""
+  "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.dvi" 1587782701 640948 5ecd0e3d254b872d340664b380bbb957 "latex"
   (generated)
   "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.pdf"
   "20160501StirlingFormula.pdf"
-["latex"] 1561536539 "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.tex" "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.dvi" "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula" 1561536543
-  "20160501StirlingFormula.aux" 1561536541 17277 fb8b86644e89f2dab45f8d63e187abcc ""
-  "20160501StirlingFormula.out" 1561536541 7208 4d3a7fe65c83c0e00c95432d9445ee36 ""
-  "20160501StirlingFormula.toc" 1561536541 9048 47038b04fc45c707e1ad8085f6612c57 ""
-  "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.aux" 1561536541 17277 fb8b86644e89f2dab45f8d63e187abcc ""
-  "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.tex" 1561536534 287915 47b16739a1ac1e9489e441290bc3b73d ""
-  "c:/Users/genkuroki/Box Sync/GitHub/Stirling/20160501StirlingFormula.tex" 1561536534 287915 47b16739a1ac1e9489e441290bc3b73d ""
+["latex"] 1587782699 "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.tex" "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.dvi" "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula" 1587782703
+  "20160501StirlingFormula.aux" 1587782701 17277 fb8b86644e89f2dab45f8d63e187abcc ""
+  "20160501StirlingFormula.out" 1587782701 7208 4d3a7fe65c83c0e00c95432d9445ee36 ""
+  "20160501StirlingFormula.toc" 1587782701 9048 47038b04fc45c707e1ad8085f6612c57 ""
+  "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.aux" 1587782701 17277 fb8b86644e89f2dab45f8d63e187abcc ""
+  "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.tex" 1587782698 288104 9d5666100576bf97c3f70c259a42d0dd ""
+  "c:/Users/genkuroki/Box Sync/GitHub/Stirling/20160501StirlingFormula.tex" 1587782698 288104 9d5666100576bf97c3f70c259a42d0dd ""
   "c:/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1552423545 3332 103109f5612ad95229751940c61aada0 ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1552424345 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/goth6.tfm" 1552424345 1196 977af188465e721f1f65facb66282510 ""
@@ -45,6 +45,7 @@
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm" 1552423190 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1552423190 1332 1fde11373e221473104d6cc5993f046e ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1552423190 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
+  "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1552423190 1528 abec98dbc43e172678c11b3b9031252a ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1552423190 1524 4414a8315f39513458b80dfc63bff03a ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1552423190 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1552423190 1520 eccf95517727cb11801f4f1aee3a21b4 ""
@@ -122,10 +123,10 @@
   "c:/texlive/2018/texmf-var/web2c/eptex/platex.fmt" 1552425062 4472184 5f8d5aa5d883230568384c7bbba60a5f ""
   "c:/texlive/2018/texmf.cnf" 1552450395 771 3b672331d34f0a632199e1197c092f00 ""
   (generated)
-  "20160501StirlingFormula.dvi"
-  "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.log"
-  "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.dvi"
-  "20160501StirlingFormula.toc"
-  "20160501StirlingFormula.out"
-  "20160501StirlingFormula.log"
   "20160501StirlingFormula.aux"
+  "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.log"
+  "20160501StirlingFormula.out"
+  "20160501StirlingFormula.dvi"
+  "20160501StirlingFormula.toc"
+  "C:\Users\genkuroki\Box Sync\GitHub\Stirling\20160501StirlingFormula.dvi"
+  "20160501StirlingFormula.log"
